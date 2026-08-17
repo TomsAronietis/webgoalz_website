@@ -1,0 +1,10 @@
+# Credentials — never upload
+.env.local
+.env*
+
+# Unused source files (not referenced by index.html or blog.html)
+favicon black version.png
+favicon white version.png
+gravity logo.png
+testimonial logos/
+testimonial photos/
