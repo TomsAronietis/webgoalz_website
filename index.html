@@ -1134,7 +1134,7 @@ footer { border-top: 1px solid rgba(255,255,255,0.07); padding: 36px 40px; backg
 
   <div class="nav-menu-sep"></div>
 
-  <a href="#apply" class="nav-menu-cta" role="menuitem">Apply Now</a>
+  <a href="#" class="nav-menu-cta" role="menuitem" onclick="event.preventDefault();">Chat with us</a>
 </div>
 
 <!-- HERO -->
@@ -1149,7 +1149,7 @@ footer { border-top: 1px solid rgba(255,255,255,0.07); padding: 36px 40px; backg
   </div>
 
   <!-- Headline -->
-  <h1>We'll beat your current<br>marketing in 90 days<br><span class="accent"><span class="accent-dot"></span>Guaranteed</span></h1>
+  <h1>Marketing systems<br>built to grow your<br><span class="accent"><span class="accent-dot"></span>business</span></h1>
   <p class="hero-sub">Think of it as a magnet for your ideal clients — everything we build pulls interested leads directly to you.</p>
 
   <!-- VSL -->
@@ -1164,7 +1164,7 @@ footer { border-top: 1px solid rgba(255,255,255,0.07); padding: 36px 40px; backg
   <div class="hero-bottom">
     <div class="hero-eyebrow"><span class="dot"></span>Only 2 spots left — as of Apr 7, 2026</div>
     <div class="hero-ctas">
-      <a href="#apply" class="btn-primary">Book a Free Strategy Call <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+      <a href="#" class="btn-primary" onclick="event.preventDefault();">Chat with us <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <a href="#problems" class="btn-secondary">See how it works</a>
     </div>
   </div>
@@ -1634,33 +1634,6 @@ footer { border-top: 1px solid rgba(255,255,255,0.07); padding: 36px 40px; backg
   </div>
 </section>
 
-<!-- APPLY -->
-<section id="apply" class="section">
-  <div class="container">
-    <div class="apply-wrap">
-      <h2>See If We Could Work Together.<br><span>Only 3 Slots Per Month.</span></h2>
-      <p class="sub-p">We only work with ambitious businesses looking to scale. If that's you — let's find out if we're a fit.</p>
-      <!-- Cal inline embed code begins -->
-      <div style="width:100%;max-width:500px;margin:0 auto;overflow:hidden;" id="my-cal-inline-20-min-secret-roi-meeting" class="cal-inline-container"></div>
-      <script type="text/javascript">
-        (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-        Cal("init", "20-min-secret-roi-meeting", {origin:"https://app.cal.com"});
-        Cal.config = Cal.config || {};
-        Cal.config.forwardQueryParams = true;
-        Cal.ns["20-min-secret-roi-meeting"]("inline", {
-          elementOrSelector:"#my-cal-inline-20-min-secret-roi-meeting",
-          config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"},
-          calLink: "webgoalz-support-fzjj92/20-min-secret-roi-meeting",
-        });
-        Cal.ns["20-min-secret-roi-meeting"]("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#7145CF"},"dark":{"cal-brand":"#b9a0ee"}},"hideEventTypeDetails":false,"layout":"month_view"});
-      </script>
-      <style>.cal-inline-container::-webkit-scrollbar{display:none}.cal-inline-container{scrollbar-width:none}</style>
-      <!-- Cal inline embed code ends -->
-      <p style="margin-top:20px;font-size:13px;color:var(--ink-4);">Not a client inquiry? <a href="mailto:info@webgoalz.com" style="color:var(--purple);font-weight:500;">info@webgoalz.com</a> — brand partnerships welcome.</p>
-    </div>
-  </div>
-</section>
-
 <!-- FAQ -->
 <section id="faq" class="section">
   <div class="container">
@@ -1692,7 +1665,7 @@ footer { border-top: 1px solid rgba(255,255,255,0.07); padding: 36px 40px; backg
       <h2>Results or we<br><span>work for free.</span></h2>
       <p class="ps-guarantee">Beat your current marketing in 90 days — or we work for free until we do. And we'll buy you a steak dinner.</p>
       <div class="ps-cta">
-        <a href="#apply" class="btn-primary-dark">Get started <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <a href="#" class="btn-primary-dark" onclick="event.preventDefault();">Chat with us <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         <a href="#faq" class="btn-secondary-dark">Read the FAQ</a>
       </div>
     </div>
@@ -1892,5 +1865,6 @@ document.querySelectorAll('.faq-q').forEach(btn => {
 })();
 </script>
 
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6ab5f3c28615594d9a9920b7" data-source="WEB_USER"></script>
 </body>
 </html>
