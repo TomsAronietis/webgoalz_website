@@ -349,17 +349,20 @@ nav {
 }
 
 /* ══════════════════════════════ GLOBAL REACH (world map) ══════════════════════════════ */
-#global-reach { background: var(--bg); border-bottom: 1px solid var(--border); }
+#global-reach {
+  background-color: var(--surface-2);
+  background-image: radial-gradient(var(--border) 1px, transparent 1px);
+  background-size: 16px 16px;
+  border-bottom: 1px solid var(--border);
+}
 .world-map-video-wrap {
   max-width: 1160px;
   margin: 0 auto;
   aspect-ratio: 1920 / 1080;
-  background: var(--bg);
-  border-radius: var(--radius-xl);
+  background: var(--surface-2);
   overflow: hidden;
 }
 .world-map-video { width: 100%; height: 100%; display: block; object-fit: contain; }
-@media (max-width: 640px) { .world-map-video-wrap { border-radius: var(--radius-lg); } }
 
 /* Global reach stat row */
 .reach-stats {
